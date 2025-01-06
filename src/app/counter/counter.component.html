@@ -1,0 +1,9 @@
+<mat-card appearance="outlined" style="text-align: center;">
+    <mat-card-content>
+        <mat-card-title>Counter</mat-card-title>
+        <p>{{ count$ | async }}</p>
+        <button (click)="decrement()" mat-stroked-button style="margin-right: 4px;">Decrement</button>
+        <button (click)="increment()" mat-flat-button style="margin-right: 4px;">Increment</button>
+        <button (click)="incrementByAmount()" mat-flat-button style="background-color: green;">Increment By 5</button>
+    </mat-card-content>
+</mat-card>
