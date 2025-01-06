@@ -1,6 +1,10 @@
 # AngularTs
 This project provides with the simplest template for using Angular built-in tools as a comparison to React + Redux + React-Router + Vite using typescript.
 
+Demo available here:
+- Angular: [angular-ngrx-ts.vercel.app](https://angular-ngrx-ts.vercel.app/)
+- React Version: [react-redux-vite-ts.vercel.app](https://react-redux-vite-ts.vercel.app/)
+
 ## How to run the app
 Make sure dependencies are installed: npm install
 
